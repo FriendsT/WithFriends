@@ -1,0 +1,24 @@
+
+
+.DS_Store
+.idea/
+.vscode/
+
+*.log
+
+# dev
+node_modules
+bower_components
+.happypack
+
+src/scripts/common/config.js
+src/scripts/common/config.pro.js
+config.local.js
+consul.config.json
+
+public
+build
+static
+manifest.json
+
+docker-compose.yml
