@@ -1,10 +1,6 @@
 export default {
   state: {
     tabInfo: [
-      {name: '主页', icon: '#icon-tubiao115', routeName: 'home'},
-      {name: '推荐', icon: '#icon-tushu', routeName: 'recommend'},
-      {name: '阅读记录', icon: '#icon-shujia2', routeName: 'bookshelf'},
-      {name: '我', icon: '#icon-user1', routeName: 'user'}
     ], // tab 配置项
     tabStatus: false // tab是否显示
   },

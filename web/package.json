@@ -13,7 +13,12 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "element-ui": "^2.3.8",
     "vue": "^2.5.16",
+    "vue-axios": "^2.1.1",
+    "vue-lazy-render": "^1.0.20",
+    "vue-lazyload": "^1.2.3",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },

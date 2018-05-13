@@ -4,6 +4,12 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 
+// element-ui
+import ElementUI from 'element-ui'
+Vue.use(ElementUI)
+// 字体图标
+import './common/iconfont.js'
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

@@ -3,6 +3,11 @@
     <h1>{{ msg }}</h1>
     <h2 @click="test">Ecosystem</h2>
     <lw-test />
+    <i class="el-icon-edit"></i>
+    <el-button type="primary">主要按钮</el-button>
+    <svg class="icon" aria-hidden="true">
+      <use xlink:href="#icon-mmobilephone"></use>
+    </svg>
   </div>
 </template>
 
@@ -29,7 +34,7 @@ export default class Sidebar extends Vue {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@import '../assets/css/index';
+@import '../../assets/css/index';
 .hello {
   color: blue;
 }
